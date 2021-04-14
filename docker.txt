@@ -1,0 +1,40 @@
+Tutorial : https://www.youtube.com/watch?v=F5ju5vofrs8 (Trie Tree Technologies)
+
+			   https://www.youtube.com/watch?v=WSqja26WUEY
+
+docker run command:  docker run -it imagename /bin/bash
+
+ctrl+p - ctrl+q means container is running but will come outside of the container
+
+docker images : is the find list of images in your docker
+
+docker ps : means display the running containers
+
+docker ps -a : means display the running containers and stop containers info
+
+docker pull imagename : pull the image
+
+docker run imagename : pul the image and run the image
+
+example: docker run centos
+
+docker rm containerid : for remove container
+
+install postgres for example : docker run postgres:9.6
+
+https://hub.docker.com/
+
+docker hub site contains collection images, nearly 10000 images 
+
+Container : container is a layers of images. mostly linux based image, because small in size. Application image on Top.
+
+Docker Image and Docker Container
+
+Docker image is actual package, docker image is not running
+
+Docker Container is actually start the application, container is running.
+
+
+Creating Django App in Container(https://www.youtube.com/watch?v=XDaQAmkDFX4)
+--------------------------------------
+sudo docker-compose run web django-admin startproject mysite .  (creating django proj command)
